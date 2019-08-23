@@ -2,13 +2,50 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Cifra de César</title>
+    <link href="https://fonts.googleapis.com/css?family=Sanchez&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw4sh3JR18fbC9-pmXXXuYof6uOUiw9HajKdx3tSO311FPZo3RuA">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <div id="linha1">
+      <h1>Mensagem de Julieta para Romeu</h1>
     </div>
+    <hr width=70% align=center>
+    <div id="explica">
+      <p>Unico e exclusivamente para Julieta cifrar uma mensagem avisando Romeu de que ela não esta morta de verdade. Apenas em drogas.</p>
+    </div>
+    <div id="regras">
+      <p>REGRAS: <br>
+        1. Não utilize números nas mensagens, mas pode escrever por extenso (ex: um, dois três) <br>
+        2. Não utilize 'ç' (cê-cedilha) <br>
+        3. Não utilize acentos nas palavras <br>
+      </p>
+    </div>
+    <section class="container">
+    <fieldset>
+    <div id ="cifrar">
+      <form id= "formulario" autocomplete="off">
+        
+      <p>Escreva abaixo sua mensagem e escolha se quer cifrar ou decifrar:</p>
+      <form id="frm1" action="/action_page.php">
+      Mensagem para cifrar ou decifrar: <input type="text" name="mensagem" id="mensagem" /><br>
+      Qual a posição: <input type="number" name="deslocamento" id="deslocamento"><br>
+      </form>
+      <br>
+      <button id="encodeButton">CIFRAR</button>
+      <button id="decodeButton">DECIFRAR</button>
+       </fieldset>
+    </div>
+      <br>
+      <fieldset>
+    <label for="resultado">Sua mensagem ficou assim:</label>
+    <br>
+    <textarea id="resultado" name="resultado" rows="5" cols="33"> 
+    </textarea>
+    </fieldset>
+    </section>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
