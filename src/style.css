@@ -7,12 +7,13 @@ html {
 }
 
 body{
-    margin: 30px;
-    background-image: url(https://images.unsplash.com/photo-1519972064555-542444e71b54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
-    padding: 10px 50px;
+    margin: 35px;
+    background-image: url(https://img.freepik.com/free-photo/paperboard-texture_95678-72.jpg?size=626&ext=jpg);
+    padding: 10px 35px;
     border: 1px solid black;
-    height: 89%;
-    justify-content: flex-start;
+    height: 86%;
+    width: 90%;
+    justify-content: center;
 }
 
 #linha1 {
@@ -38,7 +39,7 @@ body{
 fieldset{
     display: flex;
     width:300px;
-    height:300px;
+    height:250px;
     display: flex;
     flex-direction: row;
 }
@@ -46,10 +47,28 @@ fieldset{
 textarea{
     resize: none;
     width: 280px;
-    height: 300 px;
+    height: 450 px;
 }
 
 .container{
     display: flex;
     justify-content: center;
+}
+
+#encodeButton{
+    background-color: white; 
+    font-size: 15px;
+    border: 1px solid #848484;
+    font-family: 'Sanchez', serif;
+}
+
+#decodeButton{
+    background-color: white;
+    font-size: 15px;
+    border: 1px solid #848484;
+    font-family: 'Sanchez', serif;
+}
+
+@media (max-width: 1000px){
+
 }
