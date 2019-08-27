@@ -26,7 +26,7 @@ function decode (deslocamento, mensagem) {
   letras.forEach(
     function testeDecode (letras) {
       if (letras.charCodeAt() != 32) {
-        arrCodigoDecode +=(String.fromCharCode((letras.charCodeAt() - 65 - deslocamento) % 26 + 65));
+        arrCodigoDecode +=(String.fromCharCode((letras.charCodeAt() - 90 - deslocamento) % 26 + 90));
       } else {
         arrCodigoDecode += (String.fromCharCode(letras.charCodeAt()));
       }
