@@ -28,8 +28,8 @@ muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como
 a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
 
-Fontes: [Wikipédia link](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
-        [Clube dos Geeks link](http://clubedosgeeks.com.br/sem-categoria/cifra-de-cesar-criptografia-monoalfabetica)
+Fontes: [Wikipédia](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
+        [Clube dos Geeks](http://clubedosgeeks.com.br/sem-categoria/cifra-de-cesar-criptografia-monoalfabetica)
 
 
 
@@ -81,7 +81,7 @@ _Utilizei ajuda do Trello e do fluxograma para realizar esse projeto._
 * [✓] **Não** usar `this`.
 * [✓] Implementar `cipher.encode`.
 * [✓] Implementar `cipher.decode`.
-* [ ] Passar o linter com a configuração definida.
+* [✓] Passar o linter com a configuração definida.
 * [✓] Passar as provas unitárias.
 * [✓] Testes unitários cubrindo 70% dos _statements_, _functions_ e _lines_, e
   no mínimo 50% das _branches_.
