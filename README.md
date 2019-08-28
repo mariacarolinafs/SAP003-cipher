@@ -95,5 +95,5 @@ _Utilizei ajuda do Trello e do fluxograma para realizar esse projeto._
  **"Hacker edition"**
 
 * [✓] Cifrar/decifrar minúsculas.
-* [ ] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
+* [✓] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
 * [ ] Permitir usar `offset` negativo.
